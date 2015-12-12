@@ -1,0 +1,28 @@
+{
+  "name": "telegraphjs-configuration",
+  "version": "0.0.1",
+  "description": "Configuration validator and loader for TelegraphJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/postral/telegraphjs-configuration.git"
+  },
+  "keywords": [
+    "telegraphjs"
+  ],
+  "author": "Philip S. O'Donnell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postral/telegraphjs-configuration/issues"
+  },
+  "homepage": "https://github.com/postral/telegraphjs-configuration",
+  "dependencies": {
+    "extend": "^3.0.0",
+    "recursive-iterator": "^2.0.0",
+    "request": "^2.67.0",
+    "yamljs": "^0.2.4"
+  }
+}
